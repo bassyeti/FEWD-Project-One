@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Courier';
   color: #222;
   background: #222222;
 }
@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.tab { 
+.dent_align { 
   text-indent: 30px;
   text-align: justify;
 }
@@ -97,7 +97,7 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: center;
+  text-align: center|justify;
   background: #F5ECCE;
   border-bottom: 4px solid maroon;
   border-radius: 6px;
@@ -112,17 +112,45 @@ ul.skills {
   text-align: center;
 }
 
-.skills li {
+.skills_large li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #088A85;
   color: white;
-  padding: 5px 10px;
-  margin: 2px;
+  padding: 10px 15px;
+  margin: 0px;
+  font-size: 20px;
 }
 
-.skills li:nth-child(odd) {
-  background: #0399ff;
+.skills_large li:nth-child(odd) {
+  background: maroon;
+}
+
+.skills_medium li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #088A85;
+  color: white;
+  padding: 8px 12px;
+  margin: 0px;
+  font-size: 17px;
+}
+
+.skills_medium li:nth-child(odd) {
+  background: maroon;
+}
+
+.skills_small li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #088A85;
+  color: white;
+  padding: 5px 10px;
+  margin: 0px;
+}
+
+.skills_small li:nth-child(odd) {
+  background: maroon;
 }
 
 footer {
@@ -134,7 +162,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
-  color: maroon;
+  color: white;
 }
 
 footer ul {
@@ -157,12 +185,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
