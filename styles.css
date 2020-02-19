@@ -23,6 +23,11 @@ a:hover {
 
 /* Section Styles */
 
+.tab { 
+  text-indent: 30px;
+  text-align: justify;
+}
+
 .main-nav {
   width: 100%;
   background: black;
