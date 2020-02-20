@@ -17,6 +17,10 @@ a {
   text-decoration: none;
   color: #999;
 }
+
+.q {
+  padding-top: 20px;
+}
 a:hover {
   color: #6633ff;
 }
@@ -291,4 +295,29 @@ div.desc {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
+}
+
+/* Message Form - https://www.w3schools.com/html/html_forms.asp */
+
+.msg_div {
+  display: table;
+  margin: 0 auto;
+  padding: 20px 40px 10px;
+  max-width: 500px;
+  text-align: center, justify;
+  background: #F5ECCE;
+  border-radius: 6px;
+}
+
+.m_outer {
+  margin: 30px auto;
+}
+
+input[type="text1"] {
+  text-align: center;  
+}
+input[type="text2"] {
+  height: 200px;
+  width: 200px;
+  text-align: center;  
 }
